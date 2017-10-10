@@ -42,7 +42,8 @@ app.use('/todos', require('./routes/todos'));
 //图片上传
 app.use('/uploadimg', require('./routes/uploadimg'));
 
-
+//news upload test
+app.use('/newsup', require('./routes/newsup'));
 
 
 
