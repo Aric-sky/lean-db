@@ -14,7 +14,6 @@
 #### 请求URL:  
 ```
 http://aric.leanapp.cn/qrimg/create_qrcode?url=www.google.com
-
 ```
 
 #### 示例：
