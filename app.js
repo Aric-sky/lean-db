@@ -52,6 +52,9 @@ app.get('/', function(req, res) {
 // 可以将一类的路由单独保存在一个文件中
 app.use('/todos', require('./routes/todos'));
 
+// 生成二维码
+app.use('/qrimg', require('./routes/api/qrimg'));
+
 //图片上传
 app.use('/uploadimg', require('./routes/api/uploadimg'));
 
